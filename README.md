@@ -9,4 +9,4 @@ No authentification or access control added. Pure CRUD.
 History :
 I feel confuse to understand flow joomla MVC. So, I make it as simple as I can.  I hope you understand with minimum requirement to make "minimum CRUD operation" 
 
-http:/RidoAtmanto@Gmail.Com
+http://RidoAtmanto.BlogSpot.Com
