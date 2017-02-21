@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		
+	<field name="id" type="text" default="0" label="JGLOBAL_FIELD_ID_LABEL" readonly="true" class="readonly" 
+	description="JGLOBAL_FIELD_ID_DESC"/>
+
+		<field name="name" type="text" class="inputbox" size="40" label="Name" 
+			description="COM_CRUD_FIELD_NAME_DESC" required="true" />
+
+		<field name="birth" type="calendar" label="Birth" 
+			description="COM_FOLIO_FIELD_BIRTH_DESC" class="inputbox" size="22" 
+			format="%d-%m-%Y" filter="user_utc" required="true"/>
+
+		<field name="address" type="text" class="inputbox" size="40" 
+			label="Address" description="COM_CRUD_FIELD_ADDRESS_DESC" required="true" />
+
+	</fieldset>
+</form>
