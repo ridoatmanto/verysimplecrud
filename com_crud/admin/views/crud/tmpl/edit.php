@@ -1,5 +1,11 @@
 <?php defined('_JEXEC') or die; ?>
-<form action="<?php echo JRoute::_('index.php?option=com_crud&layout=edit&id='.(int) $this->item->id); ?>" method="post"
+<?php 
+	$id_edit = '';
+	if((int) $this->item->id != 0){
+		$id_edit = '&id='.(int) $this->item->id;
+	}
+?>
+<form action="<?php echo JRoute::_('index.php?option=com_crud&layout=edit'.$id_edit); ?>" method="post"
 name="adminForm" id="adminForm" class="form-validate">
 	<div class="row-fluid">
 		<div class="span10 form-horizontal">
